@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff78a0ed1aadf024eaec92fe552d1466, type: 3}
+  m_Name: AttackTest
+  m_EditorClassIdentifier: 
+  config: {fileID: 11400000, guid: 675a12ed93e942a428c012d8c934e0e2, type: 2}
+  lavenderAnimClips:
+  - animClip: {fileID: 7400000, guid: cccb7433d0ac9d448b3cd7ecab3ae86b, type: 2}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 0}
+    attackClip:
+      colliders: []
+      showRender: 0
+    moveConfig:
+      followBase: 0
+      useWorldPos: 0
+      setOriPosition: 0
+      originPosition: {x: 0, y: 0, z: 0}
+      targetPosition: {x: 0, y: 0, z: 0}
+      editRotation: 0
+      useCurve: 0
+      animationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    isAnim: 1
+    isAudio: 0
+    isPartical: 0
+    isAttack: 0
+    isMove: 0
+    startTime: 0
+    length: 1.2500001
+    endTime: 1.2500001
+    transformName: 
+    lavenderTransForm: {fileID: 0}
+    baseTransformName: 
+    baseTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: 675a12ed93e942a428c012d8c934e0e2, type: 2}
+    rate: 1
+    weight: 1
+    dynamicWeight: 0.042554718
+    cutStartTime: 0
+    cutEndTime: 0
+  - animClip: {fileID: 7400000, guid: ed97984d464a2544e9d5cb912423b4c1, type: 2}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 0}
+    attackClip:
+      colliders: []
+      showRender: 0
+    moveConfig:
+      followBase: 0
+      useWorldPos: 0
+      setOriPosition: 0
+      originPosition: {x: 0, y: 0, z: 0}
+      targetPosition: {x: 0, y: 0, z: 0}
+      editRotation: 0
+      useCurve: 0
+      animationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    isAnim: 1
+    isAudio: 0
+    isPartical: 0
+    isAttack: 0
+    isMove: 0
+    startTime: 0.6333333
+    length: 1.3333334
+    endTime: 1.9666667
+    transformName: 
+    lavenderTransForm: {fileID: 0}
+    baseTransformName: 
+    baseTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: 675a12ed93e942a428c012d8c934e0e2, type: 2}
+    rate: 1
+    weight: 1
+    dynamicWeight: 0.57411206
+    cutStartTime: 0
+    cutEndTime: 0
+  lavenderAudioClips: []
+  lavenderParticleClips:
+  - animClip: {fileID: 0}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 19800004, guid: 820e81edbff3f6c4387ee1326a837c3c, type: 3}
+    attackClip:
+      colliders: []
+      showRender: 0
+    moveConfig:
+      followBase: 0
+      useWorldPos: 0
+      setOriPosition: 0
+      originPosition: {x: 0, y: 0, z: 0}
+      targetPosition: {x: 0, y: 0, z: 0}
+      editRotation: 0
+      useCurve: 0
+      animationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    isAnim: 0
+    isAudio: 0
+    isPartical: 1
+    isAttack: 0
+    isMove: 0
+    startTime: 0.28409958
+    length: 5
+    endTime: 5.2840996
+    transformName: "\u96FE\u5207"
+    lavenderTransForm: {fileID: 0}
+    baseTransformName: 
+    baseTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 2.58, y: 7.97, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: 675a12ed93e942a428c012d8c934e0e2, type: 2}
+    rate: 2.23
+    weight: 1
+    dynamicWeight: 0
+    cutStartTime: 0
+    cutEndTime: 1.6938756
+  lavenderAttackClips:
+  - animClip: {fileID: 0}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 0}
+    attackClip:
+      colliders:
+      - Center: {x: 0, y: 0, z: 0.55}
+        Size: {x: 0.05, y: 0.05, z: 2}
+        Rotation: {x: 0, y: 0, z: 0, w: 0}
+        collider: {fileID: 0}
+        shape: {fileID: 0}
+      showRender: 0
+    moveConfig:
+      followBase: 0
+      useWorldPos: 0
+      setOriPosition: 0
+      originPosition: {x: 0, y: 0, z: 0}
+      targetPosition: {x: 0, y: 0, z: 0}
+      editRotation: 0
+      useCurve: 0
+      animationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    isAnim: 0
+    isAudio: 0
+    isPartical: 0
+    isAttack: 1
+    isMove: 0
+    startTime: 0.40000015
+    length: 1
+    endTime: 1.4000001
+    transformName: Body
+    lavenderTransForm: {fileID: 0}
+    baseTransformName: 
+    baseTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: 675a12ed93e942a428c012d8c934e0e2, type: 2}
+    rate: 0.73
+    weight: 1
+    dynamicWeight: 0
+    cutStartTime: 0
+    cutEndTime: 0.2213334
+  lavenderMoveClips:
+  - animClip: {fileID: 0}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 0}
+    attackClip:
+      colliders: []
+      showRender: 0
+    moveConfig:
+      followBase: 0
+      useWorldPos: 0
+      setOriPosition: 0
+      originPosition: {x: 0, y: 0, z: 0}
+      targetPosition: {x: 0, y: 0, z: 1}
+      editRotation: 0
+      useCurve: 1
+      animationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.15818815
+          value: 0.013654824
+          inSlope: 0.23370767
+          outSlope: 0.23370767
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.2455182
+          value: 0.44088498
+          inSlope: 0.51353914
+          outSlope: 0.51353914
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6831327
+          value: 0.4867908
+          inSlope: 0.39541435
+          outSlope: 0.39541435
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.7249097
+          value: 0.9120663
+          inSlope: 1.0522865
+          outSlope: 1.0522865
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.1169094
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0.13859594
+          outSlope: 0.13859594
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.1818903
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    isAnim: 0
+    isAudio: 0
+    isPartical: 0
+    isAttack: 0
+    isMove: 1
+    startTime: 0.13333333
+    length: 1
+    endTime: 1.1333333
+    transformName: "\u523B\u6674ValidValid(Clone)"
+    lavenderTransForm: {fileID: 0}
+    baseTransformName: 
+    baseTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: 675a12ed93e942a428c012d8c934e0e2, type: 2}
+    rate: 0.67
+    weight: 1
+    dynamicWeight: 0
+    cutStartTime: 0
+    cutEndTime: 0.06199998
+  totalTime: 1.9666667

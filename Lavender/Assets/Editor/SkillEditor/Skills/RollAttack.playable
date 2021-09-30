@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff78a0ed1aadf024eaec92fe552d1466, type: 3}
+  m_Name: RollAttack
+  m_EditorClassIdentifier: 
+  config: {fileID: 11400000, guid: 2d776a5127ccc7748b4f67418bee2920, type: 2}
+  lavenderAnimClips:
+  - animClip: {fileID: 7400000, guid: 87d509b9595b13742bb6dda6e7efef38, type: 2}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 0}
+    isAnim: 1
+    isAudio: 0
+    isPartical: 0
+    startTime: 0.0004888177
+    length: 0.86666673
+    endTime: 1.7338223
+    transformName: 
+    lavenderTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: 2d776a5127ccc7748b4f67418bee2920, type: 2}
+    rate: 1
+    weight: 1
+    dynamicWeight: 13.822138
+    cutStartTime: 0
+    cutEndTime: 0
+  - animClip: {fileID: 7400000, guid: ee0b6f38e54d4a2498764300b60a87e7, type: 2}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 0}
+    isAnim: 1
+    isAudio: 0
+    isPartical: 0
+    startTime: 0.520517
+    length: 1.1666667
+    endTime: 2.8538504
+    transformName: 
+    lavenderTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: 2d776a5127ccc7748b4f67418bee2920, type: 2}
+    rate: 1
+    weight: 1
+    dynamicWeight: 3.3972263
+    cutStartTime: 0.10191572
+    cutEndTime: 0.4333868
+  - animClip: {fileID: 7400000, guid: 87d509b9595b13742bb6dda6e7efef38, type: 2}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 0}
+    isAnim: 1
+    isAudio: 0
+    isPartical: 0
+    startTime: 0.9165831
+    length: 0.86666673
+    endTime: 2.6499166
+    transformName: 
+    lavenderTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: 2d776a5127ccc7748b4f67418bee2920, type: 2}
+    rate: 1
+    weight: 1
+    dynamicWeight: 1
+    cutStartTime: 0.20211375
+    cutEndTime: 0
+  lavenderAudioClips: []
+  lavenderParticleClips:
+  - animClip: {fileID: 0}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 19800004, guid: 820e81edbff3f6c4387ee1326a837c3c, type: 3}
+    isAnim: 0
+    isAudio: 0
+    isPartical: 1
+    startTime: 0.7960061
+    length: 5
+    endTime: 6.4487476
+    transformName: "\u96FE\u5207"
+    lavenderTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: 2d776a5127ccc7748b4f67418bee2920, type: 2}
+    rate: 7.66
+    weight: 1
+    dynamicWeight: 0
+    cutStartTime: 0
+    cutEndTime: 2.9216235
+  - animClip: {fileID: 0}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 19800004, guid: 820e81edbff3f6c4387ee1326a837c3c, type: 3}
+    isAnim: 0
+    isAudio: 0
+    isPartical: 1
+    startTime: 0.2647905
+    length: 5
+    endTime: 5.805916
+    transformName: Right toe
+    lavenderTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: 2d776a5127ccc7748b4f67418bee2920, type: 2}
+    rate: 9.24
+    weight: 1
+    dynamicWeight: 0
+    cutStartTime: 0
+    cutEndTime: 1.0430485
+  - animClip: {fileID: 0}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 19800004, guid: 820e81edbff3f6c4387ee1326a837c3c, type: 3}
+    isAnim: 0
+    isAudio: 0
+    isPartical: 1
+    startTime: 1.168918
+    length: 5
+    endTime: 6.7489643
+    transformName: Right toe
+    lavenderTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: 2d776a5127ccc7748b4f67418bee2920, type: 2}
+    rate: 8.62
+    weight: 1
+    dynamicWeight: 0
+    cutStartTime: 0
+    cutEndTime: 2.0292227
+  totalTime: 1.7832499

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff78a0ed1aadf024eaec92fe552d1466, type: 3}
+  m_Name: BackJump
+  m_EditorClassIdentifier: 
+  config: {fileID: 11400000, guid: ca7210d58bbfac6488f5e08227364956, type: 2}
+  lavenderAnimClips:
+  - animClip: {fileID: 7400000, guid: c9f238acd3629b4449d3ace8d6583f63, type: 2}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 0}
+    isAnim: 1
+    isAudio: 0
+    isPartical: 0
+    startTime: 0.23531544
+    length: 0.8333334
+    endTime: 1.9019822
+    transformName: 
+    lavenderTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: ca7210d58bbfac6488f5e08227364956, type: 2}
+    rate: 1
+    weight: 1
+    dynamicWeight: 1
+    cutStartTime: 0
+    cutEndTime: 0
+  - animClip: {fileID: 7400000, guid: 647a1d7f1abf66341a7c7ae8d4a20377, type: 2}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 0}
+    isAnim: 1
+    isAudio: 0
+    isPartical: 0
+    startTime: 0
+    length: 0.4166667
+    endTime: 0.4166667
+    transformName: 
+    lavenderTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: ca7210d58bbfac6488f5e08227364956, type: 2}
+    rate: 1
+    weight: 1
+    dynamicWeight: 0
+    cutStartTime: 0
+    cutEndTime: 0
+  lavenderAudioClips: []
+  lavenderParticleClips:
+  - animClip: {fileID: 0}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 19800000, guid: 3ef2ea34d0d127142a9d6e02915340cb, type: 3}
+    isAnim: 0
+    isAudio: 0
+    isPartical: 1
+    startTime: 0.06380902
+    length: 3
+    endTime: 3.9701533
+    transformName: Right wrist
+    lavenderTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: ca7210d58bbfac6488f5e08227364956, type: 2}
+    rate: 3.31
+    weight: 1
+    dynamicWeight: 0
+    cutStartTime: 0.7063315
+    cutEndTime: 1.3807018
+  totalTime: 1.0686488

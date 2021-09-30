@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff78a0ed1aadf024eaec92fe552d1466, type: 3}
+  m_Name: NormalAttack
+  m_EditorClassIdentifier: 
+  config: {fileID: 11400000, guid: df8e48f502808ec49b41fc048f9baaa0, type: 2}
+  lavenderAnimClips:
+  - animClip: {fileID: 7400000, guid: cccb7433d0ac9d448b3cd7ecab3ae86b, type: 2}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 0}
+    isAnim: 1
+    isAudio: 0
+    isPartical: 0
+    startTime: 0
+    length: 1.2500001
+    endTime: 1.2500001
+    transformName: 
+    lavenderTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: df8e48f502808ec49b41fc048f9baaa0, type: 2}
+    rate: 1.42
+    weight: 1
+    dynamicWeight: 0.021489073
+    cutStartTime: 0
+    cutEndTime: 0.12977797
+  - animClip: {fileID: 7400000, guid: ed97984d464a2544e9d5cb912423b4c1, type: 2}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 0}
+    isAnim: 1
+    isAudio: 0
+    isPartical: 0
+    startTime: 0.47291782
+    length: 1.3333334
+    endTime: 1.8062512
+    transformName: 
+    lavenderTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: df8e48f502808ec49b41fc048f9baaa0, type: 2}
+    rate: 1.42
+    weight: 1
+    dynamicWeight: 0.01383996
+    cutStartTime: 0.30229092
+    cutEndTime: 0
+  - animClip: {fileID: 7400000, guid: ee0b6f38e54d4a2498764300b60a87e7, type: 2}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 0}
+    isAnim: 1
+    isAudio: 0
+    isPartical: 0
+    startTime: 0.9517598
+    length: 1.1666667
+    endTime: 2.1184266
+    transformName: 
+    lavenderTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: df8e48f502808ec49b41fc048f9baaa0, type: 2}
+    rate: 1
+    weight: 1
+    dynamicWeight: 0.12059581
+    cutStartTime: 0.32568944
+    cutEndTime: 0
+  lavenderAudioClips: []
+  lavenderParticleClips:
+  - animClip: {fileID: 0}
+    audioClip: {fileID: 0}
+    prefabClip: {fileID: 19800004, guid: 820e81edbff3f6c4387ee1326a837c3c, type: 3}
+    isAnim: 0
+    isAudio: 0
+    isPartical: 1
+    startTime: 0.30345404
+    length: 5
+    endTime: 5.303454
+    transformName: "\u96FE\u5207"
+    lavenderTransForm: {fileID: 0}
+    ParticleDetail:
+      relativePosition: {x: 0, y: 0, z: 0}
+      relativeRotation: {x: 0, y: 0, z: 0, w: 0}
+    ownerConfig: {fileID: 11400000, guid: df8e48f502808ec49b41fc048f9baaa0, type: 2}
+    rate: 3.05
+    weight: 1
+    dynamicWeight: 0
+    cutStartTime: 0
+    cutEndTime: 0.14761613
+  totalTime: 2.1184266
