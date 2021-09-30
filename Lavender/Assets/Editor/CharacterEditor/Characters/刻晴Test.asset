@@ -1,0 +1,249 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f956478b00ff3f4498619662b2286b1, type: 3}
+  m_Name: "\u523B\u6674Test"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 8a1f3bda164af584f933ae6eafa437ac, type: 2}
+    - {fileID: 11400000, guid: add9fa00d0d3b844cacb0db0cfd47aa7, type: 2}
+    - {fileID: 11400000, guid: 02866d5161a6fe546a60174397cf1530, type: 2}
+    - {fileID: 11400000, guid: 155e26c811c37634283d51fce7e9d452, type: 2}
+    - {fileID: 7400000, guid: 7c5c986785fe1434a8388ffa1c7f3c84, type: 2}
+    - {fileID: 7400000, guid: 3063e2bd3204c904a9e76fb80895cf70, type: 2}
+    - {fileID: 7400000, guid: 8da63761f3feb324393d62a0609d3bc7, type: 3}
+    - {fileID: 7400000, guid: 36a367c7a2c396f45abc00b115645d3f, type: 2}
+    - {fileID: 7400000, guid: 09ad1665692034e469f183077f91308a, type: 2}
+    - {fileID: 7400000, guid: b76ecc7cb02d2614fbaaf28c5dfc3a6b, type: 2}
+    - {fileID: 7400000, guid: 4264f52ccf5468042a56f26a112c140e, type: 3}
+    - {fileID: 7400000, guid: c17728970d030de4f924f2fb154bec54, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: skills
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[UnityEngine.KeyCode, UnityEngine.CoreModule],[Lavender.SkillPlayableAsset,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[UnityEngine.KeyCode,
+        UnityEngine.CoreModule]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 323
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 324
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 50
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 49
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: moveAnimClip
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[Lavender.MoveState, Assembly-CSharp],[UnityEngine.AnimationClip,
+        UnityEngine.AnimationModule]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 3|System.Collections.Generic.EnumEqualityComparer`1[[Lavender.MoveState,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  model: {fileID: 3901124694135205426, guid: a86e2ae38f8a771458b1b8197fdde58d, type: 3}
+  characterName: "\u523B\u6674Test"
+  health: 0
+  attack: 0
+  attackedAnim: {fileID: 7400000, guid: 4264f52ccf5468042a56f26a112c140e, type: 3}
+  characterPlayableAsset: {fileID: 11400000, guid: 4c92c5612fceb7148aa39d68917601d9,
+    type: 2}
+  moveAsset: {fileID: 11400000, guid: 451cac72a210df14cbf5200873a455f5, type: 2}
+  moveAnim:
+  - {fileID: 7400000, guid: 7c5c986785fe1434a8388ffa1c7f3c84, type: 2}
+  - {fileID: 7400000, guid: 3063e2bd3204c904a9e76fb80895cf70, type: 2}
+  - {fileID: 7400000, guid: 36a367c7a2c396f45abc00b115645d3f, type: 2}
+  - {fileID: 7400000, guid: 8da63761f3feb324393d62a0609d3bc7, type: 3}
+  - {fileID: 7400000, guid: 09ad1665692034e469f183077f91308a, type: 2}
+  - {fileID: 7400000, guid: c17728970d030de4f924f2fb154bec54, type: 2}
+  - {fileID: 7400000, guid: b76ecc7cb02d2614fbaaf28c5dfc3a6b, type: 2}
+  - {fileID: 7400000, guid: 4264f52ccf5468042a56f26a112c140e, type: 3}
+  control: {fileID: 0}
